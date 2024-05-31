@@ -14,4 +14,4 @@
 <p>Mobile View</p>
 <img src="https://i.imgur.com/3NvDjmm.png"/>
 
-<p>Follow me for More -> <a href="https://github.io/prathameshvattamwar">https://github.io/prathameshvattamwar</a></p>
+<p>Follow me for More -> <a href="https://github.com/prathameshvattamwar">https://github.com/prathameshvattamwar</a></p>
