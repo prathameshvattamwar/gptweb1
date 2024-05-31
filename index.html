@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Learning Opportunities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a2238;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #1a2238;
+        }
+        .menu{
+            display: none !important;
+            font-size: 1.7em;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .cta {
+            background-color: #1a73e8;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 100px;
+            text-align: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .hero-text {
+            max-width: 100%;
+        }
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .hero-text .buttons a {
+            background-color: #1a73e8;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .hero-text .buttons a.secondary {
+            background-color: transparent;
+            border: 2px solid #1a73e8;
+        }
+        .hero-image {
+            position: relative;
+            margin-top: 30px;
+        }
+        .hero-image img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            transition: all ease .3s;
+        }
+
+        .hero-image img:hover{
+            scale:1.03;
+            cursor: pointer;
+            filter: brightness(120%);
+        }
+
+        .hero-image .small-image {
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            border: 5px solid #1a2238;
+            border-radius: 10px;
+            max-width: 30%;
+        }
+        @media(min-width: 768px) {
+            .hero {
+                flex-direction: row;
+                text-align: left;
+            }
+            .hero-text {
+                max-width: 50%;
+            }
+            .hero-text h1 {
+                font-size: 48px;
+            }
+            .hero-image {
+                margin-top: 0;
+            }
+           
+        }
+        @media screen and (max-width: 780px) {
+            .hero{
+                padding: 50px;
+            }
+            .links{
+                display: none;
+            }
+            .auth{
+                display: none;
+            }
+            .hero-image img{
+                max-width: 80%;
+            }
+            .hero-image .small-image {
+            
+                bottom: -10px;
+                left: 0px;
+            }
+            .menu{
+                display: block !important;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">BrandName</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="auth">
+            <a href="#">Login</a>
+            <a href="#" class="cta">JOIN US</a>
+        </div>
+        <i class="fa-solid fa-bars menu"></i>
+    </div>
+    <div class="hero">
+        <div class="hero-text">
+            <p>Welcome</p>
+            <h1>Best Learning Opportunities</h1>
+            <p>We know how large objects will act, but things on a small scale</p>
+            <div class="buttons">
+                <a href="#">Get Quote Now</a>
+                <a href="#" class="secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://shelteringwings.org/wp-content/uploads/2020/03/assets-5-learning.png" alt="Main Image">
+            <img src="https://m.media-amazon.com/images/I/71L+x4yi65L._AC_UF894,1000_QL80_.jpg" alt="Small Image" class="small-image">
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/37df75b44e.js" crossorigin="anonymous"></script>
+</body>
+</html>
