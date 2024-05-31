@@ -1,15 +1,15 @@
 <h1>Best Learning Opportunities</h1>
 <p>This whole website is made by ChatGPT & it is fully responsive</p>
-<br><br>
+<br>
 <p><a href="https://prathameshvattamwar.github.io/gptweb1">click here to see website</a></p>
-<br><br>
+<br>
 <h3>Website Preview</h3>
-<br><br>
+<br>
 
 <p>Desktop View</p>
 <img src="https://i.imgur.com/ibJcXZm.png"/>
 
-<br><br>
+<br>
 
 <p>Mobile View</p>
 <img src="https://i.imgur.com/3NvDjmm.png"/>
